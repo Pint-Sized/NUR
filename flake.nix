@@ -24,6 +24,7 @@
         {
           wlogout-icons = pkgs.callPackage ./pkgs/data/wlogout-icons/icons { };
           sddm-theme = pkgs.callPackage ./pkgs/data/sddm-themes/homeless { };
+          chevron = pkgs.callPackage ./pkgs/data/chevron/chevron { };
         }
       );
     };
